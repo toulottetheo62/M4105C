@@ -8,6 +8,10 @@ font-size:62.5%;
 }
 body{
 font-size:1.6rem;
+background-image:url('../img/background.jpg');
+background-size:cover;
+background-attachment:fixed;
+
 }
 h1{
 color: maroon;
@@ -15,13 +19,15 @@ font-size:2.5rem;
 text-align:center;
 }
 h2{
-color: blue;
+color: white;
 font-size:40px;
 text-align:center;
 font-size:2rem;
 }
 table{
+display:block;
 margin:0 auto;
+background-color:white;
 }
 tr{
 
@@ -29,12 +35,14 @@ width: 100%;
 margin:  auto;
 }
 td{
-
+background-color:white;
 border : solid black 0.1rem;
 
 }
 
-
+tr td:first-child{
+background-color:grey;
+}
 
 
 

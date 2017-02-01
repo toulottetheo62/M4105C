@@ -20,16 +20,20 @@ background-color:#c0392b;
 .blanc{
 background-color:#ecf0f1;
 }
-
+section{
+display:block;
+padding :2px;
+margin: 5px;
+}
 p{
 display:block;
-margin: 10px;
-padding:5px;
+margin: 20px;
+padding:10px;
 }
 
 img{
 display:block;
-margin: 10px;
+margin: 0 auto;;
 }
 input{
 display:block;

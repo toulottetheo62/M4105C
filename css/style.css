@@ -9,8 +9,8 @@ font-size:62.5%;
 body{
 font-size:1.6rem;
 background-image:url('../img/background.jpg');
-background-size:cover;
-background-attachment:fixed;
+background-size:contain;
+
 
 }
 h1{

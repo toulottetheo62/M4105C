@@ -20,6 +20,26 @@ font-size:40px;
 text-align:center;
 font-size:2rem;
 }
+table{
+margin:0 auto;
+}
+tr{
+
+width: 100%;
+margin:  auto;
+}
+td{
+
+border : solid black 0.1rem;
+
+}
+
+
+
+
+
+
+
 
 .bleu{
 background-color:#2980b9;
@@ -63,6 +83,22 @@ background-size: 300px 150px;
 margin: 0 auto;
 }
 
+@media screen and (max-width: 700px){
+
+
+
+td{
+display:inline-block;
+width: 100%;
+
+}
+
+
+}
+
+
+
+
 @media screen and (max-width: 520px){
 
 img{
@@ -72,4 +108,23 @@ margin:0 auto;
 
 }
 
+
+
+
 }
+
+@media screen and (max-width: 360px){
+
+input{
+width:80%;
+}
+
+
+
+}
+
+
+
+
+
+
